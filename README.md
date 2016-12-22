@@ -13,6 +13,7 @@ distributing Java 7.
 
 1. Clone this repository in a directory adjacent to [boot's][boot]
 1. Run `vagrant up`
+1. `ssh-add` so you can forward your credentials
 1. Run `vagrant ssh`
 1. boot's repo is mounted at `/boot-clj`. `cd` there, edit `version.properties` and run `make install`
 1. Test the version you built.
